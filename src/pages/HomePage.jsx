@@ -2,60 +2,21 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Typography } from '@mui/material';
 
-// import { GITHUB_LINK, LINKEDIN_LINK } from '../components/SocialLinks';
-
-// export default function Home() {
-//     return (
-//       <div>
-//         <Header />
-//         <Navigation />
-//         <section id="home">
-//           <h2>Home</h2>
-//           <p>This is the Home section where you can add information about yourself.</p>
-//         </section>
-//         <section id="about">
-//           <h2>About Me</h2>
-//           <p>This is the About Me section where you can add information about yourself. A Colombia Bootcamp trained software developer with a Growth Mindset.</p>
-//         </section>
-//         <section id="portfolio">
-//           <h2>Portfolio</h2>
-//           <p>This is the Portfolio section where you can showcase your work.</p>
-//           <h3>Project 1</h3>
-//           <p>Description of Project 1 My projects include a dynamic Vehicle Builder in TypeScript with a README Generator using Node.js and a Weather Dashboard using OpenWeather API.</p> 
-//           <h3>Project 2</h3>
-//           <p>Description of Project 2</p>
-//           <h3>Project 3</h3>
-//           <p>Description of Project 3</p>
-//         </section>
-//         <section id="contact">
-//           <h2>Contact</h2>
-//           <p>This is the Contact section where you can add contact information.</p>
-//         </section>
-//         <section id="resume">
-//           <h2>Resume</h2>
-//           <p>This is the Resume section where you can add your resume.</p>
-//         </section>
-//         <Footer />
-//       </div>
-//     );
-//   }
-
   export default function Home() {
-// const Home = () => {
     return (
         <div>
           
             <Header />
-            <Navigation />
+            {/* <Navigation /> */}
             <h1>Welcome to My Portfolio</h1>
-            <p>This is the homepage. A Colombia Bootcamp trained software developer with a Growth Mindset</p>
+            <p>This is the homepage. A Colombia University Bootcamp trained software developer with a Growth Mindset</p>
+            <p>My technical skills include HTML, CSS, JavaScript, jQuery, Node.js, Express.js, SQL, MongoDB, React, and responsive web design.</p>
+            <p>My projects include a dynamic Vehicle Builder in TypeScript with a README Generator using Node.js and a Weather Dashboard using OpenWeather API.</p>
             <Footer />
             
         </div>
     );
 };
-// export default Home;
-
 
 const styles = {
   link: {
@@ -74,23 +35,13 @@ function Header() {
   return (
     <header>
       <h1>Sean Dolan</h1>
-      <p>Welcome to my portfolio site!</p>
+      <h2>Full Stack Web Developer</h2>
+      <p>New York, NY</p>
+
     </header>
   );
 }
 
-function Navigation() {
-  return (
-    <nav>
-      <a href="/" style={styles.link}>Home</a>
-      <a href="/about" style={styles.link}>About Me</a>
-      <a href="/portfolio" style={styles.link}>Portfolio</a>
-      {/* <a href="/projects" style={styles.link}>Projects</a> */}
-      <a href="/contact" style={styles.link}>Contact</a>
-      <a href="/resume" style={styles.link}>Resume</a>
-    </nav>
-  );
-}
 
 // function Navigation() {
 //     return (

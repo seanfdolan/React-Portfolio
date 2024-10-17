@@ -1,4 +1,4 @@
-// import Project from "../components/Project";
+import Project from "../components/Project";
 
 export default function Portfolio () {
     return (
@@ -20,21 +20,16 @@ export default function Portfolio () {
     );
 };
 
-{/* <div className="project-box">
-<Project title="Project 1" description="Description of Project 1" />
-</div>
-<div className="project-box">
-<Project title="Project 2" description="Description of Project 2" />
-</div>
-<div className="project-box">
-<Project title="Project 3" description="Description of Project 3" />
-</div>
-<div className="project-box">
-<Project title="Project 4" description="Description of Project 4" />
-</div>
-<div className="project-box">
-<Project title="Project 5" description="Description of Project 5" />
-</div>
-<div className="project-box">
-<Project title="Project 6" description="Description of Project 6" />
-</div> */}
+{/* <><div className="project-box">
+    <Project title="Project 1" description="Description of Project 1" />
+</div><div className="project-box">
+        <Project title="Project 2" description="Description of Project 2" />
+    </div><div className="project-box">
+        <Project title="Project 3" description="Description of Project 3" />
+    </div><div className="project-box">
+        <Project title="Project 4" description="Description of Project 4" />
+    </div><div className="project-box">
+        <Project title="Project 5" description="Description of Project 5" />
+    </div><div className="project-box">
+        <Project title="Project 6" description="Description of Project 6" />
+    </div></> */}

@@ -19,7 +19,12 @@ export default function About() {
     return (
       <div className="container pt-4">
         <p>
-        LATIN
+        Enthusiastic and driven Full Stack Developer with a recent graduation 
+        from a rigorous bootcamp, where I honed my skills in both front-end and 
+        back-end technologies. Passionate about building responsive and user-friendly 
+        applications, I have a strong foundation in HTML, CSS, JavaScript, and frameworks 
+        like React and Node.js. Eager to leverage my problem-solving abilities and collaborative 
+        spirit to contribute to innovative projects and drive success in a dynamic tech environment.
         </p>
         <section className="features-icons bg-light text-center m-4">
           <div className="container">
@@ -62,13 +67,7 @@ export default function About() {
           </div>
         </section>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-          impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-          architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-          mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-          nostrum temporibus ad omnis nam rerum eligendi.
+          I am a full stack web developer with a background in education and a passion for learning new things
         </p>
       </div>
     );

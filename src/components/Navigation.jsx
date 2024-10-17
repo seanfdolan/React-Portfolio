@@ -1,7 +1,4 @@
 
-// export default Navigation; // Removed to avoid multiple default exports
-
-
 import React from 'react';
 // import Project from './Project';
 // import myPhoto from '../assets/my-photo.jpg';
@@ -12,20 +9,21 @@ const Navigation = () => {
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                    <li><Link to="/">Home</Link></li>
+                    {/* <li><Link to="/">Home</Link></li> */}
                     {/* <div>
                         <img src={myPhoto} alt="My photo" style={{ width: '300px', height: 'auto' }} />
                     </div> */}
                 <li><a href="#portfolio">Portfolio</a></li>
-                    <li><Link to="/portfolio">Portfolio</Link></li>
+                    {/* <li><Link to="/portfolio">Portfolio</Link></li> */}
                 <li><a href="#contact">Contact</a></li>
-                    <li><Link to="/contact">Contact</Link></li>
+                    {/* <li><Link to="/contact">Contact</Link></li> */}
                 <li><a href="#resume">Resume</a></li>
-                    <li><Link to="/resume">Resume</Link></li>
+                    {/* <li><Link to="/resume">Resume</Link></li> */}
             </ul>
         </nav>
     );
 };
+
 
 // const AboutMe = () => {
 //     return (
@@ -33,7 +31,7 @@ const Navigation = () => {
 //             <h2>About Me</h2>
 //             <p>This is the About Me section where you can add information about yourself.</p>
 //             <p>I am a full stack web developer with a background in education and a passion for learning new things.</p>
-//             <p>I am excited to be a part of the community and to continue to grow as a developer.</p>
+//          <p>My technical skills include HTML, CSS, JavaScript, jQuery, Node.js, Express.js, SQL, MongoDB, React, and responsive web design.</p>
 //             <img src={myPhoto} alt="My photo" style={{ width: '300px', height: 'auto' }} />
 //         </section>
 //     );
@@ -104,17 +102,5 @@ const Navigation = () => {
 //     );
 // };
 
-// const App = () => {
-//     return (
-//         <div>
-//             <Navigation />
-//             <AboutMe />
-//             <Portfolio />
-//             <Contact />
-//             <Resume />
-//         </div>
-//     );
-// };
 
-// export { App as default };
 export default Navigation; // Added to export all components

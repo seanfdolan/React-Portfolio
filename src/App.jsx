@@ -2,7 +2,7 @@ import React from 'react';
 // import { BrowserRouter as Router, Route, Switch, Link, } from 'react-router-dom';
 import Home from './pages/HomePage';
 import About from './pages/AboutPage';
-import Portfolio from './pages/PortfolioPage';
+// import Portfolio from './pages/PortfolioPage';
 import Projects from './components/Project';
 import Contact from './pages/ContactPage';
 import Resume from './pages/ResumePage';
@@ -14,20 +14,24 @@ import { useState, useEffect, useContext, Component } from 'react'
 
 import Button from 'react-bootstrap/Button'
 
-function App() {
+
+function App()  {
   return (
-   <div>
+    <div className="App">
       <Navigation />
       <Home />
-      <Outlet />
-
+      <main>
+        <Outlet />
+      </main>
+      
       <About />
-      {/* <Portfolio /> */}
       <Projects />
+      {/* <Portfolio /> */}
       <Contact />
       <Resume />
-  </div>
-)
+    </div>
+  )
 }
 
 export default App;
+
