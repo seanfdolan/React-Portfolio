@@ -11,8 +11,8 @@ import {Outlet} from 'react-router-dom'
 import Navigation from './components/Navigation'
 import { useState, useEffect, useContext, Component } from 'react'
 
-import Button from './react-bootstrap/Button'
-import Footer from './components/Footber';
+// import Button from './react-bootstrap/Button'
+import Footer from './components/Footer';
 import Header from './components/Header';
 
 
