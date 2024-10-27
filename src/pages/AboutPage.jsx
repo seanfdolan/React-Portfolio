@@ -5,7 +5,7 @@ export default function About() {
       <div className="container pt-4">
         <p>
         Enthusiastic and driven Full Stack Developer with a recent graduation 
-        from a rigorous bootcamp, where I honed my skills in both front-end and 
+        from a rigorous bootcamp, where  I honed my skills in both front-end and 
         back-end technologies. Passionate about building responsive and user-friendly 
         applications, I have a strong foundation in HTML, CSS, JavaScript, and frameworks 
         like React and Node.js. Eager to leverage my problem-solving abilities and collaborative 
@@ -30,7 +30,7 @@ export default function About() {
                   <div className="features-icons-icon d-flex">
                     <i className="bi-layers m-auto text-primary" />
                   </div>
-        <img src="/images/headshot.JPG" alt="Sean Dolan" class="headshot" style={{width: '300px', height: 'auto'}}/>
+        <img src="/images/headshot-cropped.JPG" alt="Sean Dolan" class="headshot" style={{width: '300px', height: 'auto'}}/>
                   {/* <h3>Bootstrap 5 Ready</h3>
                   <p className="lead mb-0">
                     Featuring the latest build of the new Bootstrap 5 framework!
@@ -53,10 +53,10 @@ export default function About() {
           </div>
         </section>
         <p>
-        I am a full stack web developer with a background in education and a passion for learning new things
+        {/* I am a full stack web developer with a background in education and a passion for learning new things */}
         </p>
         <p>
-          Critical thinker with strong analytic modeling (and technical) skills and a proven ability to work in a fast-paced environment.
+          Critical thinker with strong analytic modeling, technical skills and a proven ability to work in a fast-paced environment.
         </p>
         <p>
           Ability to thrive in a team environment and work independently with minimal supervision.
@@ -65,3 +65,4 @@ export default function About() {
     );
   }
   
+ 

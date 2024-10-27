@@ -14,7 +14,7 @@ const styles = {
 function Footer() {
     return (
       <footer style={styles.footer}>
-        <h5>Footer Thanks for checking out my page.</h5>
+        <h5>Thanks for checking out my page.</h5>
         <div>
           <a href="https://github.com/seanfdolan" style={styles.link}>GitHub</a>
           <span> | </span>

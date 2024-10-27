@@ -3,8 +3,8 @@ import Project from "../components/Project";
 export default function Portfolio () {
     return (
         <section id="portfolio">
-            <h2>Portfolio</h2>
-            <p>This is the Portfolio section where you can showcase your work.</p>
+            {/* <h2>Portfolio</h2>
+            <p>This is the Portfolio section where you can showcase your work.</p> */}
             <Project />
             {/* <Project title="Project 1" description="Description of Project 1" />
             <img src="path/to/your/image.jpg" alt="Description of image" />

@@ -32,7 +32,7 @@ h1, h2 {
 }
 
 
-/* #root {
+#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -66,7 +66,7 @@ h1, h2 {
     animation: logo-spin infinite 20s linear;
   }
 }
-  */
+ 
 
 .card {
   padding: 2em;
@@ -95,3 +95,38 @@ margin: 1em;
   height:30vh;
   border-radius: 50%;
 }
+
+/* :root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --accent-color: #e74c3c;
+  --background-color: #f4f4f4;
+  --text-color: #333;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+nav {
+  background: var(--primary-color);
+}
+
+nav ul li a {
+  color: var(--background-color);
+}
+
+h1, h2 {
+  color: var(--primary-color);
+}
+
+.card {
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+}
+
+.read-the-docs {
+  color: var(--accent-color);
+} */
+
