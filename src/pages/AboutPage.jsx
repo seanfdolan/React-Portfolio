@@ -3,14 +3,14 @@
 export default function About() {
     return (
       <div className="container pt-4">
-        <p>
+        <h5>
         Enthusiastic and driven Full Stack Developer with a recent graduation 
-        from a rigorous bootcamp, where  I honed my skills in both front-end and 
+        from a rigorous Bootcamp, where  I honed my skills in both front-end and 
         back-end technologies. Passionate about building responsive and user-friendly 
-        applications, I have a strong foundation in HTML, CSS, JavaScript, and frameworks 
+        applications, I have a strong foundation in HTML, CSS3, JavaScript, jQuery, Express.js, SQL, MonngoDB, and frameworks 
         like React and Node.js. Eager to leverage my problem-solving abilities and collaborative 
         spirit to contribute to innovative projects and drive success in a dynamic tech environment.
-        </p>
+        </h5>
         <section className="features-icons bg-light text-center m-4">
           <div className="container">
             <div className="row p-2">
@@ -55,12 +55,12 @@ export default function About() {
         <p>
         {/* I am a full stack web developer with a background in education and a passion for learning new things */}
         </p>
-        <p>
+        <h5>
           Critical thinker with strong analytic modeling, technical skills and a proven ability to work in a fast-paced environment.
-        </p>
-        <p>
+        </h5>
+        <h5>
           Ability to thrive in a team environment and work independently with minimal supervision.
-        </p>
+        </h5>
       </div>
     );
   }

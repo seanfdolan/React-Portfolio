@@ -14,6 +14,7 @@ const Projects = () => {
     return (
         <div>
             <h2>My Projects</h2>
+            <p>My projects include a dynamic Vehicle Builder in TypeScript, a README Generator using Node.js and a Weather Dashboard using OpenWeather API.</p>
             <ul className="card-container">
                 {projects.map((project, index) => (
                     <li className="cards" key={index}>

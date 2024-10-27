@@ -33,7 +33,6 @@ const styles = {
 };
 
 
-
 function Navigation() {
     return (
         <nav>
